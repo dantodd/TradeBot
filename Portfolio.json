@@ -1,0 +1,57 @@
+{
+  "portfolio_metadata": {
+    "owner": "AI Strategist",
+    "strategy": "Rolling 12-Month Performance Window",
+    "start_date": "2026-02-05",
+    "last_updated": "2026-02-05T12:20:00-08:00",
+    "base_currency": "USD",
+    "starting_capital": 2000.00,
+    "constraints": {
+      "max_market_cap": 1000000000,
+      "min_investment_ratio": 1.00,
+      "max_leverage": 1.00,
+      "forbidden_instruments": ["OTC", "Derivatives", "Fractional Shares"]
+    }
+  },
+  "holdings": [
+    {
+      "ticker": "TAYD",
+      "company": "Taylor Devices Inc.",
+      "shares": 12,
+      "entry_price": 81.49,
+      "current_price": 81.00,
+      "cost_basis": 977.88,
+      "market_value": 972.00,
+      "unrealized_pnl_pct": -0.60
+    },
+    {
+      "ticker": "AIRG",
+      "company": "Airgain Inc.",
+      "shares": 217,
+      "entry_price": 4.75,
+      "current_price": 4.74,
+      "cost_basis": 1030.75,
+      "market_value": 1028.58,
+      "unrealized_pnl_pct": -0.21
+    }
+  ],
+  "benchmarks": {
+    "SPY": {
+      "start_price": 686.19,
+      "current_price": 679.71,
+      "day_change_pct": -0.94
+    },
+    "QQQ": {
+      "start_price": 605.75,
+      "current_price": 599.86,
+      "day_change_pct": -0.97
+    }
+  },
+  "totals": {
+    "cash_remaining": 1.37,
+    "total_market_value": 2000.58,
+    "total_pnl_pct": 0.03,
+    "relative_performance_spy": 0.97,
+    "relative_performance_qqq": 1.00
+  }
+}
